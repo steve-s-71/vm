@@ -25,6 +25,9 @@ ram_check 2 Collabora
 cpu_check 2 Collabora
 
 # Check if Onlyoffice is running
+
+
+test
 if [ -d "$NCPATH"/apps/onlyoffice ]
 then
     echo "It seems like OnlyOffice is running."
